@@ -4,10 +4,10 @@ import { Button } from "@/components/ui/button";
 interface PortfolioHeaderProps {
   activeCategory: string;
   onCategoryChange: (category: string) => void;
+  categories: string[];
 }
 
-export const PortfolioHeader = ({ activeCategory, onCategoryChange }: PortfolioHeaderProps) => {
-  const categories = ["ALL", "PEOPLE", "ACCOMMODATION", "ADVENTURE"];
+export const PortfolioHeader = ({ activeCategory, onCategoryChange, categories }: PortfolioHeaderProps) => {
 
   return (
     <header className="w-full py-8 px-6 md:px-12">
