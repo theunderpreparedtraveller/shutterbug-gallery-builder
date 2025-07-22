@@ -14,6 +14,15 @@ export const PortfolioHeader = ({ activeCategory, onCategoryChange }: PortfolioH
       {/* Top section with logo and contact */}
       <div className="flex justify-between items-center mb-12">
         <div className="flex items-center space-x-6">
+          {/* Profile Photo */}
+<div className="w-12 h-12 md:w-16 md:h-16 rounded-full overflow-hidden border-2 border-primary/20">
+  <img
+    src="kiba.jpg"
+    alt="Andy - Photographer"
+    className="w-full h-full object-cover"
+  />
+</div>
+
           {/* Logo/Name */}
           <h1 className="text-4xl md:text-5xl font-bold text-primary tracking-wider">
             ANDY!
