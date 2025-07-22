@@ -18,14 +18,14 @@ export const PortfolioHeader = ({ activeCategory, onCategoryChange, categories }
 <div className="w-12 h-12 md:w-16 md:h-16 rounded-full overflow-hidden border-2 border-primary/20">
   <img
     src="kiba.jpg"
-    alt="Andy - Photographer"
+    alt="Bidipta - Photographer"
     className="w-full h-full object-cover"
   />
 </div>
 
           {/* Logo/Name */}
           <h1 className="text-4xl md:text-5xl font-bold text-primary tracking-wider">
-            ANDY!
+            BIDIPTA SAHA
           </h1>
           
           {/* Social icons */}
